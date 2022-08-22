@@ -1,0 +1,147 @@
+
+header, footer{
+    background-color: #1f2937;
+}
+
+header, .site-feats, .site-reviews, .site-signup, footer{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 24px;
+}
+
+.site-intro> div> h1, .header-text, .action>p{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header{
+    display: flex;
+    align-items: baseline;
+}
+
+a{
+    text-transform: uppercase;
+    padding: 0px 5px;
+}
+
+.header>p{
+    flex: 1;
+}
+
+.site-intro{
+    display: flex;
+    align-items: center;
+}
+
+.site-intro> div{
+    flex: 1;
+}
+
+.signup{
+    height: 48px;
+    max-height: 48px;
+    width: auto;
+    padding: 0px 12px;
+    border-radius: 10px;
+}
+
+.nav-links> li> a{
+    text-decoration: none;
+}
+
+.site-intro> div> p,
+footer> p, ol> p,
+a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-text{
+    font-size: 24px;
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.site-feats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-feats> p{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+.item-feats{
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.item-feats> li{
+    border: 2px solid #3882F6;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.site-reviews{
+    background-color: #E5E7EB;
+}
+
+.reviews> p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+ol{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+blockquote{
+    padding: 24px 48px;
+}
+
+.author{
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.site-signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action{
+    flex-grow: 2;
+}
+
+footer>p{
+    text-align: center;
+}
+
+.site-signup{
+    background-color: #3882F6;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.action>p{
+    font-size: 18px;
+}
